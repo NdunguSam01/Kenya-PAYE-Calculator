@@ -1,0 +1,15 @@
+* 
+{
+    box-sizing: border-box;
+}
+table,tr,td
+{
+    border: 1px solid black;
+    visibility:hidden;
+}
+/* #input,#results
+{
+    float: left;
+    width: 50%;
+    padding: 15px;
+} */
