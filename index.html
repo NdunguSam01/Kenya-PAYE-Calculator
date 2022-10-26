@@ -11,12 +11,19 @@
         <title>PAYE CALCULATOR</title>
     </head>
     <body>
-        <form id="input" autocomplete="off" method="post">
+        <form id="input" autocomplete="off">
             <label for="period">Select payment period:</label>
             <select name="period" id="period" required>
                 <option value="month">Month</option>
                 <option value="year">Year</option>
             </select><br><br>
+
+            <label for="employment">Employment type</label>
+            <select name="employment" id="employment" required>
+                <option value="self">Self employed</option>
+                <option value="company">Company employed</option>
+            </select><br><br>
+
             <label for="basic">Basic salary:</label><br>
             <input type="text" id="basic" name="basic" pattern="[0-9]+"placeholder="Basic salary" required><br><br>
             <label for="allowance">Benefits(Bonus, Allowance):</label><br>

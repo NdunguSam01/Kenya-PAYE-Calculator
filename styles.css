@@ -5,7 +5,8 @@
 table,tr,td
 {
     border: 1px solid black;
-    visibility:hidden;
+    width: auto;
+    /* visibility:hidden; */
 }
 /* #input,#results
 {
